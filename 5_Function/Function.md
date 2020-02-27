@@ -55,3 +55,41 @@ document.getElementById("demo").innerHTML = toCelsius(77);
 
 ### The () Operator Invokes the Function
 
+함수 결과 대신 함수의 정의를 반환함
+ex4)
+```JavaScript
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius;
+```
+
+
+### 변수 값으로 사용 기능
+
+```JavaScript
+// 대신 함수의 리턴값을 저장하는 변수를 사용 : 
+var x = toCelsius(77);
+var text = "The temperature is " + x + " Celsius";
+
+// 변수 값으로 직접 기능을 사용할수도 있음
+document.getElementById("demo").innerHTML = toCelsius;
+
+```
+
+### 지역 변수
+
+지역변수는 선언된 함수내에서만 사용가능
+
+ex5_Local Variables)
+
+```JavaScript
+// code here can NOT use carName
+
+function myFunction() {
+  var carName = "Volvo";
+  // code here CAN use carName
+}
+
+// code here can NOT use carName
+```
