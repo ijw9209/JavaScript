@@ -80,6 +80,9 @@ name = person.fullName;
 ```
 
 ### Do Not Declare Strings, Numbers, and Booleans as Objects!
+When a JavaScript variable is declared with the keyword **"new"**, the variable is created as an object:
+
+**new**를 사용하여 object형태로 Strings, Numbers, and Booleans을 선언하면 좋지않음.
 
 ```javascript
 var x = new String();        // Declares x as a String object
