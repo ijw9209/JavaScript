@@ -44,7 +44,7 @@ var x = "We are the so-called "Vikings" from the north.";   //Uncaught SyntaxErr
 |----|----|----|
 |\'|'|Single quote|
 |\"|"|Double quote|
-|\\\\|\\|Backslash|
+| \\\\ | \\ |Backslash|
 
 
 
