@@ -103,7 +103,7 @@ var y = new Number(123);
 // typeof y returns object
 
 ```
-number객체를 사용할시 코드가 느려지고 복잡해질수있다.
+**하지만 number객체를 사용할시 속도가 느려지고 코드가 복잡해질수있다.**
 
 
 **==** 사용시 true리턴
